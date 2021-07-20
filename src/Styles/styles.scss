@@ -1,0 +1,40 @@
+$andes-theme: "mercadolibre";
+@import "~@andes/common/index";
+
+body {
+  padding: 0;
+  background-color: rgb(237, 237, 237);
+}
+
+.form-steps {
+  overflow-x: hidden;
+  .steps-group {
+    display: flex;
+    overflow-x: hidden;
+    .step {
+      padding: 12px;
+      width: 100vw;
+
+      .actions {
+        margin-top: 100px;
+        font-family: Proxima Nova;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        justify-content: space-around;
+        .back {
+          padding: 9px 12px 7px;
+          text-decoration: none;
+          color: #3483fa;
+        }
+        .next {
+          padding: 9px 12px 7px;
+          background: #3483fa;
+          border-radius: 5px;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
